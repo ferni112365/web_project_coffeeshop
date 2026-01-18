@@ -164,12 +164,7 @@
   column-gap: 40px;
 }
 
-. .recipes__video-item {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 65.25%;
-  display: flex;
+.recipes__video-item {
 }
 
 .recipes__iframe {
