@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -19,9 +19,99 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logotipo Triple Espresso"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Recetas</a></li>
+            <li><a href="#" class="nav__link">Reserva una mesa</a></li>
+            <li><a href="#" class="nav__link">Contactos</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__title-accent">Café de especialidad</span>
+          <span>en Triple Peaks</span>
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="cafetería Triple Peaks"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__footer-information">
+            <div class="header__footer-schedule">
+              <p>Horario:</p>
+              <p>Lunes a Viernes (de 10:00h a 19:00h)</p>
+              <p>Sábados y Domingos (de 11:00h a 18:00h)</p>
+            </div>
+            <div class="header__footer-direction">
+              <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
+            </div>
+          </div>
+        </div>
+      </header>
       <main class="content">
-        <section class="receta"></section>
+        <section class="recipes">
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </h3>
+          <div class="recipes__videos">
+            <section class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/jBXm8fCWdo8?si=gWZupuECd1YjyKv1"
+                title="YouTube video player"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Entendiendo la AeroPress</span>
+                <span>~29 min</span>
+              </p>
+            </section>
+            <section class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/BfDLoIvb0w4?si=12tiPbP69m092DXX"
+                title="YouTube video player"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>técnica definitiva para preparar café moka</span>
+                <span> ~12 min</span>
+              </p>
+            </section>
+          </div>
+        </section>
         <section class="formulario"></section>
       </main>
       <footer class="footer"></footer>
