@@ -213,6 +213,7 @@
 
 .form__fieldset {
   max-width: 385px;
+  border: none;
 }
 
 .form__label {
