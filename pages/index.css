@@ -201,13 +201,14 @@
 }
 
 .form {
+  color: #000000;
 }
 
 .reservation__form {
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  text-align: left;
+  padding-bottom: 120px;
 }
 
 .form__fieldset {
@@ -220,6 +221,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .form__input {
@@ -228,6 +232,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 32px;
 }
 
 .form__button {
