@@ -196,9 +196,9 @@
   line-height: 52px;
   display: flex;
   justify-content: center;
+  margin: 0 auto 80px;
   padding-top: 100px;
   color: #000;
-  margin: 0;
 }
 
 .form {
