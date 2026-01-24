@@ -1,8 +1,13 @@
 .footer {
   background-color: #0a2850;
+  color: #ffffff;
 }
 
 .footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin: 0px 80px;
 }
 
 .footer__logo {
@@ -23,8 +28,14 @@
 .footer__list-item {
 }
 
+.footer__social-link {
+}
+
 .social-icon {
 }
 
 .footer__copyright {
+  margin-top: 108px;
+  margin-left: 80px;
+  padding-bottom: 60px;
 }
