@@ -67,6 +67,10 @@
   column-gap: 10px;
 }
 
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
@@ -74,8 +78,9 @@
 
 .footer__copyright {
   margin-top: 108px;
-  margin-left: 80px;
+  margin-bottom: 0;
   padding-bottom: 60px;
+  margin-left: 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
