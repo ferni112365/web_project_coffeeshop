@@ -14,7 +14,7 @@
   height: 39px;
 }
 
-.nav__link {
+.nav__links {
   list-style: none;
   display: flex;
   flex-flow: row wrap;
@@ -27,6 +27,6 @@
   column-gap: 20px;
 }
 
-.nav__link:hover {
+.nav__links:hover {
   color: #2f80ed;
 }
